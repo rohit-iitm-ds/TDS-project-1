@@ -1,0 +1,72 @@
+[
+  {
+    "topic_id": "155939",
+    "topic_title": "GA5 Question 8 Clarification",
+    "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939",
+    "post_id": "1",
+    "post_number": 1,
+    "username": "instructor",
+    "created_at": "2025-04-10T10:00:00Z",
+    "updated_at": "2025-04-10T10:00:00Z",
+    "raw_content": "For GA5 Question 8, you must use gpt-3.5-turbo-0125 model. Even if AI Proxy supports gpt-4o-mini, use the OpenAI API directly with the specified model. This is important for consistency in grading.",
+    "cooked_content": "<p>For GA5 Question 8, you must use gpt-3.5-turbo-0125 model. Even if AI Proxy supports gpt-4o-mini, use the OpenAI API directly with the specified model. This is important for consistency in grading.</p>",
+    "reply_count": 5,
+    "like_count": 8
+  },
+  {
+    "topic_id": "155940",
+    "topic_title": "Token Calculation for GPT Models",
+    "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/token-calculation/155940",
+    "post_id": "2",
+    "post_number": 1,
+    "username": "ta_assistant",
+    "created_at": "2025-04-12T14:30:00Z",
+    "updated_at": "2025-04-12T14:30:00Z",
+    "raw_content": "To calculate token costs: Use a tokenizer to get the number of tokens and multiply by the given rate. For the Japanese text example (私は静かな図書館で本を読みながら、時間の流れを忘れてしまいました。), it would be approximately 36 tokens, so 36 * 0.00005 = 0.0018 cents for input. The cost per million input tokens is 50 cents, which equals 0.00005 cents per token.",
+    "cooked_content": "<p>To calculate token costs: Use a tokenizer to get the number of tokens and multiply by the given rate.</p>",
+    "reply_count": 3,
+    "like_count": 5
+  },
+  {
+    "topic_id": "155941",
+    "topic_title": "Assignment Submission Guidelines",
+    "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/assignment-guidelines/155941",
+    "post_id": "3",
+    "post_number": 1,
+    "username": "course_coordinator",
+    "created_at": "2025-04-08T09:00:00Z",
+    "updated_at": "2025-04-08T09:00:00Z",
+    "raw_content": "Please follow the assignment guidelines carefully. Make sure to use the specified models and APIs as mentioned in the questions. Points will be deducted for using incorrect models or approaches. For GPT-related questions, always use the exact model specified in the question.",
+    "cooked_content": "<p>Please follow the assignment guidelines carefully.</p>",
+    "reply_count": 12,
+    "like_count": 15
+  },
+  {
+    "topic_id": "155942",
+    "topic_title": "AI Proxy vs Direct OpenAI API",
+    "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/ai-proxy-vs-openai/155942",
+    "post_id": "4",
+    "post_number": 1,
+    "username": "student_helper",
+    "created_at": "2025-04-05T16:20:00Z",
+    "updated_at": "2025-04-05T16:20:00Z",
+    "raw_content": "When should we use AI Proxy vs direct OpenAI API? For assignments, if the question specifies a particular model like gpt-3.5-turbo-0125, you should use the OpenAI API directly even if AI Proxy supports a different model like gpt-4o-mini.",
+    "cooked_content": "<p>When should we use AI Proxy vs direct OpenAI API?</p>",
+    "reply_count": 8,
+    "like_count": 6
+  },
+  {
+    "topic_id": "155943",
+    "topic_title": "Understanding Token Pricing",
+    "topic_url": "https://discourse.onlinedegree.iitm.ac.in/t/token-pricing/155943",
+    "post_id": "5",
+    "post_number": 1,
+    "username": "pricing_expert",
+    "created_at": "2025-04-03T11:45:00Z",
+    "updated_at": "2025-04-03T11:45:00Z",
+    "raw_content": "Token pricing explanation: If the cost per million input tokens is 50 cents, then each token costs 0.00005 cents. For a text with 36 tokens, the calculation would be: 36 × 0.00005 = 0.0018 cents. This applies to input tokens only - output tokens may have different pricing.",
+    "cooked_content": "<p>Token pricing explanation: If the cost per million input tokens is 50 cents...</p>",
+    "reply_count": 4,
+    "like_count": 7
+  }
+]
